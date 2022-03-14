@@ -1,0 +1,107 @@
+table {
+    width: 80%;
+    table-layout: fixed;
+}
+
+.div-r {
+    display: flex;
+    table-layout: fixed;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: baseline;
+    max-width: max-content;
+    margin: auto;
+}
+
+.td-one {
+    color: red;
+    width: 20%;
+    text-align: left;
+}
+
+.td-two {
+    color: black;
+    width: 20%;
+    text-align: center;
+}
+
+.td-three {
+    color: green;
+    width: 20%;
+    text-align: right;
+}
+
+.td-four {
+    color: yellow;
+    width: 20%;
+    text-align: left;
+}
+
+.td-five {
+    color: black;
+    width: 20%;
+    text-align: left;
+}
+
+.td-six {
+    color: black;
+    width: 40%;
+    text-align: center;
+}
+
+.td-seven {
+    color: red;
+    width: 20%;
+    text-align: left;
+}
+
+.td-eight {
+    color: black;
+    width: 20%;
+    text-align: left;
+}
+
+.td-nine {
+    color: black;
+    width: 20%;
+    text-align: left;
+}
+
+.td-ten {
+    color: green;
+    width: 20%;
+    text-align: left;
+}
+
+.td-eleven {
+    color: blue;
+    width: 60%;
+    text-align: justify;
+}
+
+.td-twelve {
+    color: green;
+    width: 20%;
+    text-align: right;
+}
+
+.td-thirteen {
+    color: black;
+    width: 20%;
+    text-align: left;
+}
+
+.td-fourteen {
+    color: blue;
+    width: 40%;
+    text-align: center;
+}
+
+.td-fifthteen {
+    color: red;
+    width: 40%;
+    text-align: center;
+}
