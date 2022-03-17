@@ -8,7 +8,7 @@ namespace ThirdTask
         static ThirdTask.RegEx regEx = new ThirdTask.RegEx();
         static void Main(string[] args)
         {
-            regEx.PrintEvenNumbers();
+            regEx.PrintMinimumThreeEvenGroups();
         }
     }
 }
