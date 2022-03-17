@@ -1,0 +1,117 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 130px;
+}
+
+.wikipedia-typo {
+    width: 200px;
+    align-self: center;
+}
+
+.header-container {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.header h2 {
+    font-size: 16px;
+    font-weight: 500;
+    align-self: center;
+    margin-top: -50px;
+}
+
+nav .top-logo-container {
+    height: 320px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg');
+    background-repeat: no-repeat;
+    background-position: center 50px;
+    background-size: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    padding: 270px 0 0 0;
+}
+
+.top-logo-container ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0 30px;
+}
+
+.first-line {
+    width: 500px;
+}
+
+.second-line {
+    width: 700px;
+}
+
+.third-line {
+    width: 800px;
+}
+
+.top-logo-container ul li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+    .top-logo-container ul li a strong {
+        color: #3366cc;
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .top-logo-container ul li a p {
+        color: #54595d;
+        font-size: 0.8em;
+    }
+
+    .top-logo-container ul li a strong:hover {
+        text-decoration: underline;
+    }
+
+.main-input .main-input-container {
+    margin: 10px auto 10px auto;
+    border: 1px #a9afb3 solid;
+    width: 430px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 1px;
+}
+
+.main-input-textbox {
+    border: 0px;
+    width: 400px;
+    height: 40px;
+}
+
+    .main-input-textbox:focus {
+        outline: none;
+    }
+
+.search-button {
+    background-image: url("/search.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    width: 55px;
+    height: 40px;
+    border: none;
+    background-color: #3366cc;
+}

@@ -6,4 +6,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Views\Новая папка\**" />
+    <Content Remove="Views\Новая папка\**" />
+    <EmbeddedResource Remove="Views\Новая папка\**" />
+    <None Remove="Views\Новая папка\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\site - Копировать.css" />
+    <Content Remove="wwwroot\images\copysitetask.css" />
+    <Content Remove="wwwroot\images\secondtask.css" />
+    <Content Remove="wwwroot\images\site - Копировать.css" />
+    <Content Remove="wwwroot\images\site.css" />
+  </ItemGroup>
+
 </Project>
